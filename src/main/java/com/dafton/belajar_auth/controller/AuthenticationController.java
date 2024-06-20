@@ -1,5 +1,9 @@
-package com.dafton.belajar_auth.auth;
+package com.dafton.belajar_auth.controller;
 
+import com.dafton.belajar_auth.model.AuthenticationRequest;
+import com.dafton.belajar_auth.model.AuthenticationResponse;
+import com.dafton.belajar_auth.model.RegisterRequest;
+import com.dafton.belajar_auth.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

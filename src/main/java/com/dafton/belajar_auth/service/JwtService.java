@@ -1,4 +1,4 @@
-package com.dafton.belajar_auth.config;
+package com.dafton.belajar_auth.service;
 
 import io.github.cdimascio.dotenv.Dotenv;
 import io.jsonwebtoken.Claims;

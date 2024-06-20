@@ -1,4 +1,4 @@
-package com.dafton.belajar_auth.user;
+package com.dafton.belajar_auth.model;
 
 public enum Role {
     USER,

@@ -1,5 +1,6 @@
-package com.dafton.belajar_auth.user;
+package com.dafton.belajar_auth.repository;
 
+import com.dafton.belajar_auth.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

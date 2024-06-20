@@ -1,4 +1,4 @@
-package com.dafton.belajar_auth.auth;
+package com.dafton.belajar_auth.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

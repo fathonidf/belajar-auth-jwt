@@ -1,4 +1,4 @@
-package com.dafton.belajar_auth.user;
+package com.dafton.belajar_auth.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,9 +1,11 @@
-package com.dafton.belajar_auth.auth;
+package com.dafton.belajar_auth.service;
 
-import com.dafton.belajar_auth.config.JwtService;
-import com.dafton.belajar_auth.user.Role;
-import com.dafton.belajar_auth.user.User;
-import com.dafton.belajar_auth.user.UserRepository;
+import com.dafton.belajar_auth.model.AuthenticationRequest;
+import com.dafton.belajar_auth.model.AuthenticationResponse;
+import com.dafton.belajar_auth.model.RegisterRequest;
+import com.dafton.belajar_auth.model.Role;
+import com.dafton.belajar_auth.model.User;
+import com.dafton.belajar_auth.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
