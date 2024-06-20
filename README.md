@@ -49,15 +49,16 @@ The project uses the following dependencies:
     ```sh
     ./gradlew build
     ```
+3. Make a secret key 256 bit hex:
+   a. URL: [Generate yours Here](https://asecuritysite.com/encryption/plain)
+
+   b. then put it on your .env with the format
+
+   ```JWT_SECRET_KEY=<fill it here>```
 
 ### Running the Application
 
-1. Make a secret key 256 bit hex:
-   - URL: `https://asecuritysite.com/encryption/plain`
-   then put it on your .env with the format
-   ```JWT_SECRET_KEY=<fill it here>```
-
-2. Run the application:
+1. Run the application:
     ```sh
     mvn spring-boot:run
     ```
@@ -66,7 +67,7 @@ The project uses the following dependencies:
     ./gradlew bootRun
     ```
 
-3. Open Postman and create the following endpoints for testing:
+2. Open Postman and create the following endpoints for testing:
 
     - **Register a new user:**
         - URL: `http://localhost:8080/api/v1/auth/register`
