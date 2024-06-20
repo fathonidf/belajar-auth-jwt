@@ -1,5 +1,6 @@
 package com.dafton.belajar_auth.model;
 
+import com.dafton.belajar_auth.enums.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

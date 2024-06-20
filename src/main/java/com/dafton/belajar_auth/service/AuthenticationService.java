@@ -3,7 +3,7 @@ package com.dafton.belajar_auth.service;
 import com.dafton.belajar_auth.model.AuthenticationRequest;
 import com.dafton.belajar_auth.model.AuthenticationResponse;
 import com.dafton.belajar_auth.model.RegisterRequest;
-import com.dafton.belajar_auth.model.Role;
+import com.dafton.belajar_auth.enums.Role;
 import com.dafton.belajar_auth.model.User;
 import com.dafton.belajar_auth.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
