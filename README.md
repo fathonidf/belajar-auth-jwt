@@ -50,6 +50,7 @@ The project uses the following dependencies:
     ./gradlew build
     ```
 3. Make a secret key 256 bit hex:
+   
    a. URL: [Generate yours Here](https://asecuritysite.com/encryption/plain)
 
    b. then put it on your .env with the format
