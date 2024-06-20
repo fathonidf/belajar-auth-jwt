@@ -8,13 +8,28 @@ This project is a simple demonstration of how to implement JWT (JSON Web Token) 
 - User Authentication
 - Protected Endpoints
 
-## Getting Started
+## Prerequisites
 
-### Prerequisites
-
-- Java 8 or higher
+- Java 21
 - Maven or Gradle
 - Postman (for testing the API)
+
+## Dependencies
+
+The project uses the following dependencies:
+
+1. **Spring Boot Starter Data JPA**
+2. **Spring Boot Starter Security**
+3. **Spring Boot Starter Web**
+4. **PostgreSQL Driver**
+5. **Project Lombok**
+6. **JJWT API (version 0.11.5)**
+7. **JJWT Implementation (version 0.11.5)**
+8. **JJWT Jackson (version 0.11.5)**
+9. **Spring Boot Starter Test** (for testing)
+10. **Spring Security Test** (for testing)
+
+## Getting Started
 
 ### Installation
 
