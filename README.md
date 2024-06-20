@@ -27,7 +27,9 @@ The project uses the following dependencies:
 7. **JJWT Implementation (version 0.11.5)**
 8. **JJWT Jackson (version 0.11.5)**
 9. **Spring Boot Starter Test** (for testing)
-10. **Spring Security Test** (for testing)
+10. **Spring Boot Configuration Processor**
+11. **Spring Security Test** (for testing)
+12. **Dot Env (version 5.2.2)**
 
 ## Getting Started
 
@@ -50,7 +52,12 @@ The project uses the following dependencies:
 
 ### Running the Application
 
-1. Run the application:
+1. Make a secret key 256 bit hex:
+   - URL: `https://asecuritysite.com/encryption/plain`
+   then put it on your .env with the format
+   ```JWT_SECRET_KEY=<fill it here>```
+
+2. Run the application:
     ```sh
     mvn spring-boot:run
     ```
@@ -59,7 +66,7 @@ The project uses the following dependencies:
     ./gradlew bootRun
     ```
 
-2. Open Postman and create the following endpoints for testing:
+3. Open Postman and create the following endpoints for testing:
 
     - **Register a new user:**
         - URL: `http://localhost:8080/api/v1/auth/register`

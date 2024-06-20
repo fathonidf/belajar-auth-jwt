@@ -1,4 +1,6 @@
 spring:
+  jwt:
+    secret-key: ${JWT_SECRET_KEY}
   datasource:
     url: jdbc:postgresql://localhost:5432/jwt_security
     username: postgres
